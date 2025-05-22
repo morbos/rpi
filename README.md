@@ -9,7 +9,8 @@ paho-mqtt
 The SX1276 Lora module is wired up using CE1 as so:  
   
 These are the RPi Zero W pin header#s.  
-  
+<pre>
+
 9 - GND  
               IRQ(GPIO4) - 16  
 17 - 3.3v     RST(GPIO5) - 18  
@@ -17,6 +18,7 @@ These are the RPi Zero W pin header#s.
 21 - MISO  
 23 - SCLK  
               CE1        - 26  
+</pre>
   
 This is compiled on a RPI Zero W as so:  
   
