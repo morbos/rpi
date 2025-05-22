@@ -432,7 +432,7 @@ update_crc8(uint8_t *crc, uint8_t m)
 
 enum Door_States { G1_OPEN=1, G1_CLOSED, UNUSED1, FD_OPEN, FD_CLOSED, MBOX_CHANGE };
 //#define CLIENTID    "paho_c_pub"
-#define QOS         1
+#define QOS         2
 #define TIMEOUT     10000L
 
 int delivered_p = 0;
