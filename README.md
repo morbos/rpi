@@ -1,11 +1,12 @@
 
-This program is a brige between the sx1276 lora module and the Mosquitto broker.
+This program is a bridge between an SX1276 lora module and the Mosquitto broker located on
+the LAN.
 
-The program, spitest.cpp has prereq:
+The program, spitest.cpp has prereqs:
 wiringpi
 paho-mqtt
 
-The Lora module is wired up using CE1 as so:
+The SX1276 Lora module is wired up using CE1 as so:
 
 These are the RPi Zero W pin header#s.
 
